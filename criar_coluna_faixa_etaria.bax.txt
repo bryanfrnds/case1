@@ -1,0 +1,8 @@
+Faixa_Etaria = 
+SWITCH(
+    TRUE(),
+    TB_Clientes[Idade] >= 20 && TB_Clientes[Idade] <= 30, "20-30",
+    TB_Clientes[Idade] >= 31 && TB_Clientes[Idade] <= 60, "31-60",
+    TB_Clientes[Idade] > 60, "Maior que 60",
+    "Outra Faixa"
+)

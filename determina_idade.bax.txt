@@ -1,0 +1,2 @@
+Idade = 
+DATEDIFF(TB_Clientes[DATA_DE_NASCIMENTO], TODAY(), YEAR)

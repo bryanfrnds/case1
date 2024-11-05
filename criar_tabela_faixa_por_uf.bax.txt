@@ -1,0 +1,7 @@
+ClientesPorEstadoFaixaEtaria = 
+SUMMARIZE(
+    TB_Clientes, 
+    TB_Clientes[Estado], 
+    TB_Clientes[Faixa_Etaria], 
+    "ContagemClientes", COUNT(TB_Clientes[Estado])
+)
